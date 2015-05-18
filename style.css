@@ -109,6 +109,153 @@ Content
 }
 
 
+.contact-us {
+    background: rgba(59, 92, 108, 0.8) none repeat scroll 0% 0%;
+    padding-bottom: 95px;
+}
+
+.red-border-bottom::before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #FFB000 none repeat scroll 0% 0% !important;
+    bottom: -9px;
+    left: 12.5%;
+}
+
+.our-team * h6{
+    color: #44B0CE !important;
+}
+
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+1) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+2) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+3) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+2) .service-icon:hover, .focus-box:nth-child(4n+4) .service-icon:hover {
+    border: 10px solid #fc6041;
+}
+
+.ctUp-ads:nth-child(4n+1) .red-border-bottom::before, .focus-box:nth-child(4n+1) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+2) .red-border-bottom::before, .focus-box:nth-child(4n+2) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+3) .red-border-bottom::before, .focus-box:nth-child(4n+3) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+.ctUp-ads:nth-child(4n+4) .red-border-bottom::before, .focus-box:nth-child(4n+4) .red-border-bottom:hover {
+    background: none repeat scroll 0% 0%;
+}
+
+
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a::before {
+    background: #fc6041 none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+2) .latestnews-title a::before {
+    background: #ccbe0a none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+3) .latestnews-title a::before {
+    background: #6fd0f7 none repeat scroll 0% 0% !important;
+}
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+4) .latestnews-title a::before {
+    background: #f7cb00 none repeat scroll 0% 0% !important;
+}
+
+.latesnews-content > p{
+    font-size: 15px;
+}
+
+.team-member:hover .details {
+    top: 0px;
+    background: #3B5C6C none repeat scroll 0% 0%;
+    color: #FFF;
+    opacity: 1;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+    color: #727272 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+
+
+/*    BLOG    */
+
+#primary{
+    margin-top: -60px;
+}
+
+.site-content {
+    background: #F5F5F5 none repeat scroll 0% 0%;
+}
+
+article.hentry {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 15px;
+    border-radius: 3px;
+    background-color: white;
+}    
+
+.entry-content p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.listpost-content-wrap .entry-title a::after {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    height: 2px;
+    background: #FFB000 none repeat scroll 0% 0%;
+    bottom: -9px;
+    left: 0px;
+    width: 50px;
+}
+
+.listpost-content-wrap-full .entry-footer > span, .listpost-content-wrap .entry-footer > span {
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.entry-footer {
+    background: transparent none repeat scroll 0% 0%;
+    font-size: 15px;
+}
+
+.entry-footer a {
+    color: #BDBDBD;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.nav-previous{
+    margin-left: 45px;
+}
+
+.nav-next{
+    margin-right: 45px;
+}
 
 /*--------------------------------------------------------------
 Footer
