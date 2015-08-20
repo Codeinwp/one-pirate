@@ -19,3 +19,12 @@ function one_pirate_custom_script_fix() {
 }
 
 add_action( 'wp_enqueue_scripts', 'one_pirate_custom_script_fix' );
+
+/**
+ * Declare textdomain for this child theme.
+ * Translations can be filed in the /languages/ directory.
+ */
+function one_pirate_theme_setup() {
+    load_child_theme_textdomain( 'one-pirate', get_stylesheet_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'one_pirate_theme_setup' );
