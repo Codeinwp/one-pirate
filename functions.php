@@ -43,7 +43,7 @@ function onepirate_customize_register( $wp_customize ) {
 			$wp_customize,
 			'ti-notify',
 			array(
-				'text'     => sprintf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','onepirate' ), sprintf( '<a href="https://wordpress.org/themes/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wordpress.org/themes/hestia/" target="_blank">%s</a>', 'Hestia' ) ),
+				'text'     => sprintf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','onepirate' ), sprintf( '<a href="' . admin_url( 'theme-install.php?theme=zerif-lite' ) . '">%s</a>', 'Zerif Lite' ), sprintf( '<a href="' . admin_url( 'theme-install.php?theme=hestia' ) . '">%s</a>', 'Hestia' ) ),
 				'priority' => 0,
 			)
 		)
@@ -69,7 +69,7 @@ function onepirate_admin_notice() {
 
 	if ( is_admin() && ( 'themes.php' == $pagenow ) && isset( $_GET['activated'] ) ) {
 		echo '<div class="updated notice is-dismissible"><p>';
-			printf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','onepirate' ), sprintf( '<a href="https://wordpress.org/themes/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wordpress.org/themes/hestia/" target="_blank">%s</a>', 'Hestia' ) );
+			printf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','onepirate' ), sprintf( '<a href="' . admin_url( 'theme-install.php?theme=zerif-lite' ) . '">%s</a>', 'Zerif Lite' ), sprintf( '<a href="' . admin_url( 'theme-install.php?theme=hestia' ) . '">%s</a>', 'Hestia' ) );
 		echo '</p></div>';
 	}
 }
