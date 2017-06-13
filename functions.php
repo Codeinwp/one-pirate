@@ -12,7 +12,7 @@ function one_pirate_enqueue_styles() {
 }
 
 function one_pirate_custom_script_fix() {
-	wp_enqueue_script('one_pirate_script', get_stylesheet_directory_uri() .'/js/one_pirate_script.js', array('jquery'), '201202067', true); 
+	wp_enqueue_script('one_pirate_script', get_stylesheet_directory_uri() .'/js/one_pirate_script.js', array( 'jquery', 'zerif_knob_nav' ), '201202067', true);
 	
 	wp_enqueue_script('one_pirate_nicescroll',get_stylesheet_directory_uri().'/js/jquery.nicescroll.js',array('jquery'),'12121',true);
     wp_enqueue_script('one_pirate_nicescroll-script',get_stylesheet_directory_uri().'/js/zerif-nicescroll.js',array('jquery','one_pirate_nicescroll'),'12121',true);	
