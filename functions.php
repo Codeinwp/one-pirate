@@ -49,7 +49,9 @@ function onepirate_customize_register( $wp_customize ) {
 		)
 	);
 
-	$wp_customize->add_setting( 'onepirate-notify') ;
+	$wp_customize->add_setting( 'onepirate-notify', array(
+		'sanitize_callback' => 'esc_html',
+	) );
 
 	$wp_customize->add_control( 'onepirate-notify', array(
 		'label'    => __( 'Notification', 'onepirate' ),
